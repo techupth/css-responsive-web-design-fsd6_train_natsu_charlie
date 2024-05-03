@@ -6,28 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/35c53e4b6e.js" crossorigin="anonymous"></script>
   <title>Responsive Web Design - Ex 2</title>
 </head>
 
 <body>
   <!-- Start coding here -->
   <header class="header">
-    <h1 class="header title">Browse by Job Categories</h1>
+    <h1 class="header-title">Browse by Job Categories</h1>
   </header>
 
   <div class="content-categories">
-    <div class="content-categories-firsthalf">
+    <div class="content-categories first-half">
       <div class="item inactive">
         <div class="item-circle">
           <img class="item-logo" src="./assets/icon-digital-marketing.png" />
         </div>
         <div class="item-content">
-          <h2 class="item title">
+          <h2 class="item-title">
             Digital Margeting
           </h2>
           <div class="item-details">
             <p class="item-status">149 Jobs Opened</p>
-            <button type="button" class="item-button">&#8594;</button>
+            <button type="button" class="item-button"><i class="fas fa-arrow-right"></i></button>
           </div>
         </div>
       </div>
@@ -37,12 +41,12 @@
           <img class="item-logo" src="./assets/icon-art-design.png" />
         </div>
         <div class="item-content">
-          <h2 class="item title">
+          <h2 class="item-title">
             Art & Design
           </h2>
           <div class="item-details">
             <p class="item-status">110 Jobs Opened</p>
-            <button type="button" class="item-button">&#8594;</button>
+            <button type="button" class="item-button"><i class="fas fa-arrow-right"></i></button>
           </div>
         </div>
       </div>
@@ -52,12 +56,12 @@
           <img class="item-logo" src="./assets/icon-accounting.png" />
         </div>
         <div class="item-content">
-          <h2 class="item title">
+          <h2 class="item-title">
             Accounting
           </h2>
           <div class="item-details">
             <p class="item-status">158 Jobs Opened</p>
-            <button type="button" class="item-button">&#8594;</button>
+            <button type="button" class="item-button"><i class="fas fa-arrow-right"></i></button>
           </div>
         </div>
       </div>
@@ -67,30 +71,30 @@
           <img class="item-logo" src="./assets/icon-photography.png" />
         </div>
         <div class="item-content">
-          <h2 class="item title">
+          <h2 class="item-title">
             Photography
           </h2>
           <div class="item-details">
             <p class="item-status">95 Jobs Opened</p>
-            <button type="button" class="item-button">&#8594;</button>
+            <button type="button" class="item-button"><i class="fas fa-arrow-right"></i></button>
           </div>
         </div>
       </div>
     </div>
 
 
-    <div class="content-categories-secondhalf">
+    <div class="content-categories second-half">
       <div class="item inactive">
         <div class="item-circle">
           <img class="item-logo" src="./assets/icon-copy-writing.png" />
         </div>
         <div class="item-content">
-          <h2 class="item title">
+          <h2 class="item-title">
             Copy Writing
           </h2>
           <div class="item-details">
             <p class="item-status">113 Jobs Opened</p>
-            <button type="button" class="item-button">&#8594;</button>
+            <button type="button" class="item-button"><i class="fas fa-arrow-right"></i></button>
           </div>
         </div>
       </div>
@@ -100,12 +104,12 @@
           <img class="item-logo" src="./assets/icon-music.png" />
         </div>
         <div class="item-content">
-          <h2 class="item title">
+          <h2 class="item-title">
             Music
           </h2>
           <div class="item-details">
             <p class="item-status">55 Jobs Opened</p>
-            <button type="button" class="item-button">&#8594;</button>
+            <button type="button" class="item-button"><i class="fas fa-arrow-right"></i></button>
           </div>
         </div>
       </div>
@@ -115,20 +119,24 @@
           <img class="item-logo" src="./assets/icon-human-resource.png" />
         </div>
         <div class="item-content">
-          <h2 class="item title">
+          <h2 class="item-title">
             Human resources
           </h2>
           <div class="item-details">
             <p class="item-status">25 Jobs Opened</p>
-            <button type="button" class="item-button">&#8594;</button>
+            <button type="button" class="item-button"><i class="fas fa-arrow-right"></i></button>
           </div>
         </div>
       </div>
 
       <div class="item-more">
-        <p class="item-more-detail">Explore 30 More Categories</p>
-        <button type="button" class="item-button">&#8594;</button>         
+        <img class="item-more-background" src="./assets/background-more-item.png"? />
+        <div class="item-more-text">
+          <p class="item-more-detail">Explore 30 More Categories</p>
+          <button type="button" class="item-button"><i class="fas fa-arrow-right"></i></button>         
+        </div>
       </div>
+
     </div>
 
   </div>
