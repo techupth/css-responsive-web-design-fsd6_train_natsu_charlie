@@ -41,13 +41,16 @@ body {
 .content-categories {
   display: flex;
   flex-direction: column;
+  gap: 29.33px;
 }
 
 .first-half,
-.second-half {
+.second-half,
+.first-quarter,
+.second-quarter {
+  display: flex;
   flex-direction: row;
   gap: 29.33px;
-  margin-bottom: 29.33px;
 }
 
 .item {
@@ -169,8 +172,18 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
+/*Large devices*/
 @media only screen and (max-width: 1200px) {
-  .content-categories {
+  .first-half,
+  .second-half {
+    flex-direction: column;
+  }
+}
+
+/*Medium devices*/
+@media only screen and (max-width: 768px) {
+  .first-quarter,
+  .second-quarter {
     flex-direction: column;
   }
 }
