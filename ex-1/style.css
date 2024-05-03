@@ -1,1 +1,160 @@
 /* Start coding here */
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  max-width: 1420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-header {
+  height: 100px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main-header p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: #183b56;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+.main-container button {
+  width: 333px;
+  height: 268px;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+.items-main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.items-icons {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #faeedb;
+  color: #ff8345;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items-description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: end;
+}
+.group-text {
+  display: flex;
+  flex-direction: column;
+  height: 95px;
+  text-align: left;
+}
+.next-icons {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.square {
+  width: 76px;
+  height: 20px;
+  display: flex;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color: #ff8345;
+  z-index: 0;
+}
+.jobnames {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: #183b56;
+  height: 10px;
+}
+.text-free {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #5a7184;
+}
+.items-main1 {
+  width: 333px;
+  height: 268px;
+  background-color: #ff8345;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.speacial {
+  display: flex;
+  align-items: end;
+  gap: 40px;
+}
+.speacial p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  color: white;
+  height: 85px;
+}
+.press-me {
+  width: 60px;
+  height: 60px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.change {
+  width: 50px;
+  height: 50px;
+}
+.change1 {
+  width: 20px;
+  height: 20px;
+}
+.change3 {
+  width: 40px;
+  height: 40px;
+}
